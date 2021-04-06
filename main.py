@@ -9,8 +9,7 @@ start = time.perf_counter()
 print("The number is now loading...")
 
 while True:
-    number = random.randint(1, 9999999)
-    list1.append(number)
+    number = random.randint(1, 99999999999)
     if number == 1:
         finish = time.perf_counter()
         print("")
