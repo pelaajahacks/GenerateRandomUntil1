@@ -25,7 +25,7 @@ while True:
         sec %= 3600
         minutes = sec // 60
         sec %= 60
-        print(f"it took {hour} hours {minutes} minutes {secs:0.2f} seconds")
+        print(f"It took {hour} hours {minutes} minutes {secs:0.2f} seconds")
         print("1 digit numbers:", *funny_numbers)
         print("")
         print("How many 1 digit numbers:", len(funny_numbers))
